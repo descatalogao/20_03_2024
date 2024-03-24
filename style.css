@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#logocontainer{
+    display: flex;
+    align-items: center;
+
+}
+#logocontainer>img{
+    width: 130px;
+    transform: translateX(30px)
+}
+#logocontainer>h1{
+    text-shadow: rgb(43, 74, 25) 2px 2px;
+    color: rgb(241, 79, 79);
+    font-weight: 800;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+header{
+    justify-content: space-around;
+    width: 100%;
+    display: flex;
+    padding: 20px 0;
+    border-bottom: 1px solid rgb(78, 78, 78);
+    align-items: center;
+}
+#flex{
+    display: flex;
+    gap:15px;
+}
+#selectitems{
+    height: 20px;
+}
+#searchitems{
+    display: flex;
+    height: 20px;
+}
+#panel{
+    display: flex;
+}
+#panel>a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    margin: 0 10px;
+    min-height: 30px;
+    min-width: 50px;
+}
+#panel>a>img{
+    width: 30px;
+    height: 30px;
+}
+main{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+main>img{
+    filter:contrast(0.5);
+    border-radius: 40px;
+    width: 90vw;
+    height:450px;
+    object-fit: cover;
+    object-position: 80% 45%;
+}
+main>h1{
+    color: rgb(248, 255, 251);
+    width: 100%;
+    font-size: 80px;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+}
+aside{
+    padding: 30px 30px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+article{
+    padding: 20px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+article>img{
+    padding: 20px;
+    border-radius: 30px;
+    width: 100%;
+    object-fit: cover;
+}
+ul{
+    margin-top: 25px;;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+a{  
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+#shop>h2{
+    border-bottom: 1px solid rgb(78, 78, 78);
+}
+#shop{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#shop>ul>a>img{
+    height:10em;
+    width: 10em;
+    border-radius: 30px;
+    object-fit: cover;
+}
+
+
+footer, #announce{
+    color: antiquewhite;
+    margin-top: 20px;
+    padding: 15px;
+    align-items: center;
+    min-height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(32, 32, 32);
+    justify-content: center;
+    cursor: pointer;
+    gap:25px;
+    margin-bottom: 20px;
+}
+footer>a{
+    color: antiquewhite;
+    text-decoration: none;
+}
